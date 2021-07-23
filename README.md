@@ -22,7 +22,7 @@ python reverse.py
 | Prompt | What to input |
 | ------ | ------------- |
 | ROM path | The path to the ROM file you want to patch. This can be relative or absolute. |
-| Start address | The start address of the bytes you want to reverse. Not that this will be the actual offset in the ROM file and not the address of the DPCM sample in the NES memory space. You can prefix `0x` or not, it's up to you. |
+| Start address | The start address of the bytes you want to reverse. Note that this will be the actual offset in the ROM file and not the address of the DPCM sample in the NES memory space. You can prefix `0x` or not, it's up to you. |
 | End address | The last byte that you want to reverse. Up to this byte will be reversed. The byte after this will not be touched. See the notes for *Start address* for warnings. |
 
 ## Testing
